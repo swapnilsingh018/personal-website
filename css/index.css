@@ -1,0 +1,13 @@
+#header h2 {
+    margin-top: 10px; 
+    margin-bottom: -10px;  
+}
+
+#header p {
+    font-size: 15px;
+}
+
+hr {
+    width: 70%;
+    margin-left: 0px;
+}
