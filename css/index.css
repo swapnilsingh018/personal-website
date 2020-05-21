@@ -11,3 +11,25 @@ hr {
     width: 70%;
     margin-left: 0px;
 }
+
+.dates {
+    font-size: 14px;
+}
+
+.company {
+    font-size: 16px;
+}
+
+.designation {
+    font-size: 15px;
+}
+
+body {
+    background-color: #ECEFF1;
+}
+
+.tags {
+    font-size: 17px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
