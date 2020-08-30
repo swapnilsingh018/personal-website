@@ -12,13 +12,15 @@
     <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="./images/favicon-16x16.png">
     <link rel="manifest" href="./images/site.webmanifest">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+        integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
     <link rel="stylesheet" href="./css/index.css">
 
     <!-- Global site tag (gtag.js) - Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-176075827-1"></script>
     <script>
         window.dataLayer = window.dataLayer || [];
-        function gtag(){dataLayer.push(arguments);}
+        function gtag() { dataLayer.push(arguments); }
         gtag('js', new Date());
 
         gtag('config', 'UA-176075827-1');
@@ -28,67 +30,81 @@
 
 <body>
 
-    <div id="header">
+    <div id="wallpaper"></div>
 
-        <div id="header-content">
-            <img src="./images/swapnil.png" alt="">
-            <h2>Swapnil Singh</h2>
-            <p>Senior Software Engineer, Mumbai, India</p>
-            <a href="https://blog.swapnilsingh.in/" target="_blank">visit my blog</a>
+    <div id="profile-image">
+        <img src="https://avatars3.githubusercontent.com/u/9419452?s=200&u=4557582294c98a091c1f03f92ba08c675b1313a1&v=4"
+            alt="" class="rounded-circle mx-auto d-block">
+    </div>
+
+    <div class="container">
+
+        <div id="header">
+
+            <div id="header-content">
+                <h2>Swapnil Singh</h2>
+                <p>Senior Software Engineer, Mumbai, India</p>
+                <a href="https://blog.swapnilsingh.in/" target="_blank" class="btn btn-outline-dark">visit my blog</a>
+            </div>
+
+        </div>
+
+        <hr />
+
+        <div id="content">
+
+            <div id="content-experience">
+                <h4 class="tags">Experience</h4>
+                <ul>
+                    <li><b class="company">Institutional Shareholder Services</b>, <span class="designation">Associate
+                        </span><i class="dates">(April-2020 - Present)</i></li>
+                    <li><b class="company">Mosambee</b>, <span class="designation">Software Engineer </span><i
+                            class="dates">(May-2019 - April-2020)</i></li>
+                    <li><b class="company">Accenture</b>, <span class="designation">Associate Software Engineer
+                        </span><i class="dates">(November-2017 - April-2019)</i></li>
+                </ul>
+            </div>
+
+            <div id="content-skills">
+                <h4 class="tags">Skills</h4>
+                <ul>
+                    <li>Java, Multithreading, Concurrency, Executors Framework</li>
+                    <li>Oracle, PL/SQL, MySQL, SQL Server</li>
+                    <li>Spring Boot, Spring Security, Spring Cloud, Spring Batch</li>
+                    <li>Angular 9, TypeScript, JavaScript</li>
+                    <li>HTML, CSS, jQuery, Bootstrap 4, ThymeLeaf</li>
+                </ul>
+            </div>
+
+            <div id="content-education">
+                <h4 class="tags">Education</h4>
+                <ul>
+                    <li>
+                        <b>Madhav Institute of Technology & Science, Gwalior.</b>
+                        Bachelor's of Engineering(Computer Science & Engineering),
+                    </li>
+                </ul>
+            </div>
+
+        </div>
+
+        <hr />
+
+        <div id="footer">
+
+            <div id="footer-social-links">
+                <h4 class="tags">Contact me</h4>
+                <ul>
+                    <li><a href="https://www.linkedin.com/in/swapnilsingh1/" target="_blank">LinkedIn</a></li>
+                    <li><a href="https://github.com/an0nh4x0r/" target="_blank">GitHub</a></li>
+                    <li><a href="https://twitter.com/an0nh4x0r" target="_blank">Twitter</a></li>
+                </ul>
+            </div>
+
         </div>
 
     </div>
 
-    <hr />
-
-    <div id="content">
-
-        <div id="content-experience">
-            <h4 class="tags">Experience</h4>
-            <ul>
-                <li><b class="company">Institutional Shareholder Services</b>, <span class="designation">Associate </span><i class="dates">(April-2020 - Present)</i></li>
-                <li><b class="company">Mosambee</b>, <span class="designation">Software Engineer </span><i class="dates">(May-2019 - April-2020)</i></li>
-                <li><b class="company">Accenture</b>, <span class="designation">Associate Software Engineer </span><i class="dates">(November-2017 - April-2019)</i></li>
-            </ul>
-        </div>
-
-        <div id="content-skills">
-            <h4 class="tags">Skills</h4>
-            <ul>
-                <li>Java, Multithreading, Concurrency, Executors Framework</li>
-                <li>Oracle, PL/SQL, MySQL, SQL Server</li>
-                <li>Spring Boot, Spring Security, Spring Cloud, Spring Batch</li>
-                <li>Angular 9, TypeScript, JavaScript</li>
-                <li>HTML, CSS, jQuery, Bootstrap 4, ThymeLeaf</li>
-            </ul>
-        </div>
-
-        <div id="content-education">
-            <h4 class="tags">Education</h4>
-            <ul>
-                <li>
-                    <b>Madhav Institute of Technology & Science, Gwalior.</b> 
-                    Bachelor's of Engineering(Computer Science & Engineering),
-                </li>
-            </ul>
-        </div>
-
-    </div>
-
-    <hr />
-
-    <div id="footer">
-
-        <div id="footer-social-links">
-            <h4 class="tags">Contact me</h4>
-            <ul>
-                <li><a href="https://www.linkedin.com/in/swapnilsingh1/" target="_blank">LinkedIn</a></li>
-                <li><a href="https://github.com/an0nh4x0r/" target="_blank">GitHub</a></li>
-                <li><a href="https://twitter.com/an0nh4x0r" target="_blank">Twitter</a></li>
-            </ul>
-        </div>
-
-    </div>
 
 </body>
 
